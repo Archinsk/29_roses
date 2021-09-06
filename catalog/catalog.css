@@ -1,0 +1,42 @@
+.bx-catalog-element .container-fluid .row .col-md-6.col-sm-12:first-child {
+  background-color: yellow;
+}
+.bx-catalog-element .container-fluid .row .col-md-6.col-sm-12:first-child .product-item-detail-slider-container .product-item-detail-slider-block .product-item-detail-slider-image.active {
+  height: 320px;
+  width: 580px;
+}
+.bx-catalog-element .container-fluid .row .col-md-6.col-sm-12:first-child .product-item-detail-slider-container .product-item-detail-slider-block .product-item-detail-slider-image.active img {
+  height: 100%;
+}
+.bx-catalog-element .container-fluid .row .col-md-6.col-sm-12:first-child .product-item-detail-slider-container .product-item-detail-slider-controls-block {
+  height: 100px;
+  display: flex;
+}
+.bx-catalog-element .container-fluid .row .col-md-6.col-sm-12:first-child .product-item-detail-slider-container .product-item-detail-slider-controls-block .product-item-detail-slider-controls-image {
+  height: 100%;
+}
+.bx-catalog-element .container-fluid .row .col-md-6.col-sm-12:first-child .product-item-detail-slider-container .product-item-detail-slider-controls-block .product-item-detail-slider-controls-image img {
+  height: 100%;
+}
+.bx-catalog-element .container-fluid .row .col-md-6.col-sm-12:last-child {
+  background-color: yellowgreen;
+}
+.bx-catalog-element .container-fluid .row .col-sm-8.col-md-9 {
+  background-color: indianred;
+}
+.bx-catalog-element .product-item-detail-short-card-fixed {
+  background-color: greenyellow;
+}
+.bx-catalog-element .product-item-detail-tabs-container-fixed {
+  background-color: yellow;
+}
+
+h4 {
+  background-color: coral;
+}
+
+#c_store_amount {
+  background-color: orange;
+}
+
+/*# sourceMappingURL=catalog.css.map */

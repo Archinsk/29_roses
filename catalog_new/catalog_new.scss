@@ -1,0 +1,126 @@
+.product {
+
+  .product-images {
+    display: flex;
+    margin-bottom: 0.5rem;
+
+    .product-images-secondary {
+      display: flex;
+      flex-direction: column;
+
+      img {
+        width: 100px;
+      }
+    }
+
+    .product-image-primary {
+      width: 100%;
+
+      .product-image-primary-container {
+        width: 100%;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .product-info {
+
+    .product-name {
+
+    }
+
+    .product-description {
+      min-height: 150px;
+      border: 1px solid #D9DBDA;
+      border-radius: 0.25rem;
+
+      .product-description-header {
+        font-size: 1.25rem;
+        font-weight: 500;
+      }
+    }
+
+    .product-info-details {
+      border: 1px solid #D9DBDA;
+      border-radius: 0.25rem;
+      margin-bottom: 0.5rem;
+
+      .product-info-features {
+
+        .product-info-features-header {
+          font-size: 1.25rem;
+          font-weight: 500;
+        }
+      }
+
+      .product-info-price {
+        background-color: orangered;
+
+        .product-info-options {
+
+          .product-info-option {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .product-feature-header {
+              font-size: 1.25rem;
+              font-weight: 500;
+              margin-bottom: 0.25rem;
+            }
+
+            .product-info-option-details {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+
+              .btn.btn-sm {
+                margin-bottom: 0.5rem;
+              }
+
+              .btn.btn-sm {
+                margin-right: 0.5rem;
+              }
+            }
+          }
+        }
+
+        .product-info-count {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .product-info-count-price {
+            font-size: 1.75rem;
+            font-weight: 500;
+          }
+
+          .product-info-count-controls {
+            margin-bottom: 1rem;
+
+            .btn.btn-sm {
+              min-width: 2rem
+            }
+
+            .product-info-count-number {
+              margin-left: 0.5rem;
+              margin-right: 0.5rem;
+            }
+          }
+
+          .shopping-cart-button {
+            margin-bottom: 0.5rem;
+          }
+
+          .product-info-repository {
+            padding-bottom: 0.5rem;
+          }
+        }
+      }
+    }
+
+  }
+}

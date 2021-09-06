@@ -1,0 +1,62 @@
+.bx-catalog-element {
+
+  .container-fluid {
+    .row {
+      .col-md-6.col-sm-12:first-child {
+        background-color: yellow;
+
+        .product-item-detail-slider-container {
+          .product-item-detail-slider-block {
+            .product-item-detail-slider-image.active {
+              height: 320px;
+              width: 580px;
+
+              img {
+                height: 100%;
+              }
+            }
+          }
+          .product-item-detail-slider-controls-block {
+            height: 100px;
+            display: flex;
+
+            .product-item-detail-slider-controls-image {
+              height: 100%;
+
+              img {
+                height: 100%;
+              }
+            }
+          }
+        }
+      }
+
+      .col-md-6.col-sm-12:last-child {
+        background-color: yellowgreen;
+
+
+      }
+
+      .col-sm-8.col-md-9 {
+        background-color: indianred;
+      }
+    }
+  }
+
+  .product-item-detail-short-card-fixed {
+    background-color: greenyellow;
+  }
+
+  .product-item-detail-tabs-container-fixed {
+    background-color: yellow;
+  }
+
+}
+
+h4 {
+  background-color: coral;
+}
+
+#c_store_amount {
+  background-color: orange;
+}

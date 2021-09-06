@@ -1,0 +1,89 @@
+.product .product-images {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+.product .product-images .product-images-secondary {
+  display: flex;
+  flex-direction: column;
+}
+.product .product-images .product-images-secondary img {
+  width: 100px;
+}
+.product .product-images .product-image-primary {
+  width: 100%;
+}
+.product .product-images .product-image-primary .product-image-primary-container {
+  width: 100%;
+}
+.product .product-images .product-image-primary .product-image-primary-container img {
+  width: 100%;
+}
+.product .product-info .product-description {
+  min-height: 150px;
+  border: 1px solid #D9DBDA;
+  border-radius: 0.25rem;
+}
+.product .product-info .product-description .product-description-header {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.product .product-info .product-info-details {
+  border: 1px solid #D9DBDA;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+.product .product-info .product-info-details .product-info-features .product-info-features-header {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.product .product-info .product-info-details .product-info-price {
+  background-color: orangered;
+}
+.product .product-info .product-info-details .product-info-price .product-info-options .product-info-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product .product-info .product-info-details .product-info-price .product-info-options .product-info-option .product-feature-header {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+.product .product-info .product-info-details .product-info-price .product-info-options .product-info-option .product-info-option-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product .product-info .product-info-details .product-info-price .product-info-options .product-info-option .product-info-option-details .btn.btn-sm {
+  margin-bottom: 0.5rem;
+}
+.product .product-info .product-info-details .product-info-price .product-info-options .product-info-option .product-info-option-details .btn.btn-sm {
+  margin-right: 0.5rem;
+}
+.product .product-info .product-info-details .product-info-price .product-info-count {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product .product-info .product-info-details .product-info-price .product-info-count .product-info-count-price {
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+.product .product-info .product-info-details .product-info-price .product-info-count .product-info-count-controls {
+  margin-bottom: 1rem;
+}
+.product .product-info .product-info-details .product-info-price .product-info-count .product-info-count-controls .btn.btn-sm {
+  min-width: 2rem;
+}
+.product .product-info .product-info-details .product-info-price .product-info-count .product-info-count-controls .product-info-count-number {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.product .product-info .product-info-details .product-info-price .product-info-count .shopping-cart-button {
+  margin-bottom: 0.5rem;
+}
+.product .product-info .product-info-details .product-info-price .product-info-count .product-info-repository {
+  padding-bottom: 0.5rem;
+}
+
+/*# sourceMappingURL=catalog_new.css.map */

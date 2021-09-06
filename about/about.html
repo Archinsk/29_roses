@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-header {
+        font-size: 1.5rem;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        color: #393939;
+    }
+    .about p {
+        margin-top: 0;
+    }
+    .about-photo {
+        order: 2;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-photo-footer {
+        display: none;
+    }
+    .about-photo img{
+        width: 100%;
+    }
+    .about-photo-footer img{
+        width: 33%;
+    }
+    @media (min-width: 576px) {
+        .about-photo {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .about-photo img {
+            width: 50%;
+        }
+    }
+    @media (min-width: 768px) {
+        .about-photo {
+            order: 0;
+            display: flex;
+        }
+        .about-photo img {
+            width: 33%;
+        }
+        .about-photo-footer {
+            display: flex;
+        }
+    }
+</style>
+<main class="container">
+    <article class="about">
+        <div class="about-photo">
+            <img src="../images/A_Oshepkov-0218.jpg" alt="О нас">
+            <img src="../images/A_Oshepkov-0344.jpg" alt="О нас">
+            <img src="../images/A_Oshepkov-4532.jpg" alt="О нас">
+        </div>
+        <h3 class="about-header">О нас </h3>
+        <p>
+            Флористический центр «Горкунов» торжественно открылся <b>8 июня 2021 года</b>.
+        </p>
+        <p>
+            Мы являемся структурным подразделением <b><a href="http://tknso.ru/">Тепличного Комбината
+            «Новосибирский»</a></b>, расположенного в с.Толмачево, Новосибирской области, именно здесь в закрытом грунте
+            производится высококачественная сибирская роза.
+        </p>
+        <p>
+            Новейшие технологии и оборудование позволяют эффективно выращивать сибирские розы на территории 2га с
+            последующим расширением, ростом посадок и увеличением ассортимента. На текущий момент мы срезаем <b>более 25
+            000 штук одноголовых роз в день</b>.
+        </p>
+        <p>
+            Благодаря относительно невысокой себестоимости товара, производимого на ТК «Новосибирский», в нашем
+            флористическом центре «Горкунов», Вы можете приобрести розы <b>в розницу по оптовой цене</b>.
+        </p>
+        <p>
+            Мы гарантируем высокое качество товара и его свежесть, быстрый отклик и заинтересованность сотрудников во
+            взаимодействии с клиентами, надёжную и бесперебойную доставку.
+        </p>
+        <div class="about-photo-footer">
+            <img src="../images/FullSizeRender.jpg" alt="О нас">
+            <img src="../images/FullSizeRender01.jpg" alt="О нас">
+            <img src="../images/IMG_1409.jpg" alt="О нас">
+        </div>
+    </article>
+</main>
+</body>
+</html>
