@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="catalog_new.css">
@@ -9,45 +10,46 @@
 </head>
 <body>
 <div class="container">
-    <div class="product row row-cols-1 row-cols-md-2">
-        <div class="product-images col">
+    <div class="product row">
+        <div class="product-images col-12 col-md-6 row">
 
-            <div class="product-images-secondary me-2">
+            <div class="product-images-secondary col-2 pe-0">
                 <div class="product-image-secondary-container mb-2"><img src="img/default.jpg" alt=""></div>
                 <div class="product-image-secondary-container mb-2"><img src="img/default.jpg" alt=""></div>
                 <div class="product-image-secondary-container"><img src="img/default.jpg" alt=""></div>
             </div>
 
-            <div class="product-image-primary">
+            <div class="product-image-primary col-10">
                 <div class="product-image-primary-container">
                     <img src="img/default.jpg" alt="">
-                    <!--                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">-->
-                    <!--                    <div class="carousel-inner">-->
-                    <!--                        <div class="carousel-item active">-->
-                    <!--                            <img src="img/kashpo1.jpg" class="d-block h-100" alt="...">-->
-                    <!--                        </div>-->
-                    <!--                        <div class="carousel-item">-->
-                    <!--                            <img src="img/kashpo2.jpg" class="d-block h-100" alt="...">-->
-                    <!--                        </div>-->
-                    <!--                        <div class="carousel-item">-->
-                    <!--                            <img src="img/kashpo3.jpg" class="d-block h-100" alt="...">-->
-                    <!--                        </div>-->
-                    <!--                    </div>-->
-                    <!--                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"-->
-                    <!--                            data-bs-slide="prev">-->
-                    <!--                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
-                    <!--                        <span class="visually-hidden">Previous</span>-->
-                    <!--                    </button>-->
-                    <!--                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"-->
-                    <!--                            data-bs-slide="next">-->
-                    <!--                        <span class="carousel-control-next-icon" aria-hidden="true"></span>-->
-                    <!--                        <span class="visually-hidden">Next</span>-->
-                    <!--                    </button>-->
-                    <!--                </div>-->
+<!--                                    <div id="carouselExampleControls" class="carousel slide w-100" data-bs-ride="carousel">-->
+<!--                                        <div class="carousel-inner">-->
+<!--                                            <div class="carousel-item active">-->
+<!--                                                <img src="img/kashpo1.jpg" class="d-block h-100" alt="...">-->
+<!--                                            </div>-->
+<!--                                            <div class="carousel-item">-->
+<!--                                                <img src="img/kashpo2.jpg" class="d-block h-100" alt="...">-->
+<!--                                            </div>-->
+<!--                                            <div class="carousel-item">-->
+<!--                                                <img src="img/kashpo3.jpg" class="d-block h-100" alt="...">-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"-->
+<!--                                                data-bs-slide="prev">-->
+<!--                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
+<!--                                            <span class="visually-hidden">Previous</span>-->
+<!--                                        </button>-->
+<!--                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"-->
+<!--                                                data-bs-slide="next">-->
+<!--                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>-->
+<!--                                            <span class="visually-hidden">Next</span>-->
+<!--                                        </button>-->
+<!--                                    </div>-->
                 </div>
             </div>
+
         </div>
-        <div class="product-info col">
+        <div class="product-info col-12 col-md-6">
             <h3 class="product-name row">
                 <div class="col">Кашпо "Рома"</div>
             </h3>
@@ -92,7 +94,7 @@
                             <button type="button" class="btn btn-outline-secondary btn-sm">+</button>
                             <span>шт.</span>
                         </div>
-                        <button type="button" class="shopping-cart-button btn btn-primary ">В корзину</button>
+                        <button type="button" class="shopping-cart-button btn btn-danger ">В корзину</button>
                         <div class="product-info-repository">
                             Остаток на складе: 15
                         </div>
@@ -102,7 +104,16 @@
             </div>
         </div>
     </div>
+
 </div>
+
+
+<div class="footer-purchase position-fixed bottom-0">
+    <button type="button" class="footer-shopping-cart-button btn btn-danger">В корзину</button>
+    <button type="button" class="footer-shopping-cart-button btn btn-danger">Купить в 1 клик</button>
+    <button type="button" class="footer-shopping-cart-button btn btn-danger">&#128155;</button>
+</div>
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
