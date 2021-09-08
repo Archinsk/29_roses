@@ -2,10 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e75c56f-a492-46d6-ba33-c57893b89919" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cards/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/fonts/MaterialIcons-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/fonts/MaterialIcons-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/fonts/bebasneue/BebasNeue Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/fonts/bebasneue/BebasNeue Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/fonts/bebasneue/BebasNeue Book.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/fonts/bebasneue/BebasNeue Book.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/fonts/bebasneue/BebasNeue Light.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/fonts/bebasneue/BebasNeue Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/fonts/bebasneue/BebasNeue Regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/fonts/bebasneue/BebasNeue Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/fonts/bebasneue/BebasNeue Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/fonts/bebasneue/BebasNeueThin.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/fonts/roboto/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/fonts/roboto/Roboto-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/fonts/roboto/Roboto-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/fonts/roboto/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/fonts/roboto/Roboto-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/fonts/roboto/Roboto-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/fonts/roboto/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/fonts/roboto/Roboto-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/fonts/roboto/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/fonts/roboto/Roboto-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/fonts/roboto/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/fonts/roboto/Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/fonts/roboto/Roboto-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog_new/catalog_new.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog_new/product_details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog_new/catalog_new.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog_new/catalog_new.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog_new/catalog_new.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/catalog_new/catalog_new.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog_new/catalog_new.scss" beforeDir="false" afterPath="$PROJECT_DIR$/catalog_new/catalog_new.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/cards.css" beforeDir="false" afterPath="$PROJECT_DIR$/cards/cards.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/cards.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/cards/cards.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/cards/cards.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/cards/cards.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog_new/catlog_new.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog_new/catlog_new.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +80,8 @@
       <workItem from="1630463347033" duration="9093000" />
       <workItem from="1630663715647" duration="1067000" />
       <workItem from="1630896484290" duration="22446000" />
-      <workItem from="1630981655201" duration="9618000" />
+      <workItem from="1630981655201" duration="9719000" />
+      <workItem from="1631078831243" duration="5552000" />
     </task>
     <servers />
   </component>
