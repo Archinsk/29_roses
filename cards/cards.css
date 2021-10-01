@@ -1,13 +1,80 @@
-body .card-body {
-  background-color: #727270;
+body {
+  background-color: #d9dbda;
+}
+body .card {
+  border: 1px white solid;
+  position: relative;
+}
+body .card img {
+  object-fit: contain;
+  height: 154px;
+}
+@media (min-width: 576px) {
+  body .card img {
+    height: 244px;
+  }
+}
+@media (min-width: 768px) {
+  body .card img {
+    height: 334px;
+  }
+}
+@media (min-width: 992px) {
+  body .card img {
+    height: 293.983px;
+  }
+}
+@media (min-width: 1200px) {
+  body .card img {
+    height: 354px;
+  }
+}
+@media (min-width: 1400px) {
+  body .card img {
+    height: 304px;
+  }
+}
+body .card .card-body {
+  background-color: #b2b4b3;
   color: white;
 }
-body .card-body a {
+body .card .card-body a {
   text-decoration: none;
   color: white;
 }
-body .card-body a h5 {
+body .card .card-body a h5 {
   font-family: "Bebas Neue", "Segoe UI", serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+body .card .card-body .product-price {
+  font-family: "Roboto", "Segoe UI", serif;
+  color: #71716f;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+body .card .card-body .product-price .product-cash {
+  color: #2b2b29;
+}
+body .card .card-body .product-count {
+  display: none;
+}
+body .card.rose:hover {
+  border: 2px solid #fff;
+  box-shadow: 0 0 13px #fff;
+}
+body .card.rose:hover .product-count {
+  background-color: #b2b4b3;
+  z-index: 100;
+  position: absolute;
+  display: block;
+  padding: 1rem 1rem;
+  margin-left: calc(-1rem - 2px);
+  margin-right: -2px;
+  box-shadow: 0 0 13px #fff;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
 }
 
 /*# sourceMappingURL=cards.css.map */
